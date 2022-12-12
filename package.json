@@ -1,0 +1,37 @@
+{
+  "name": "paypal-sdk-spec",
+  "version": "1.0.0",
+  "description": "PayPal SDK Spec",
+  "main": "index.js",
+  "scripts": {
+    "start": "mdstart $(pwd)/README.md",
+    "test": "jest",
+    "postinstall": "mkdir -p './node_modules/md-fileserver/node_modules' && cp -r './node_modules/highlight.js' './node_modules/md-fileserver/node_modules/highlight.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paypal/paypal-sdk-spec.git"
+  },
+  "keywords": [
+    "paypal",
+    "sdk"
+  ],
+  "author": "bluepnume",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paypal/paypal-sdk-spec/issues"
+  },
+  "homepage": "https://github.com/paypal/paypal-sdk-spec#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/parser": "^7.15.3",
+    "fs-extra": "^10.0.0",
+    "jest": "^27.0.6",
+    "klaw-sync": "^6.0.0",
+    "markdown-it": "^12.2.0",
+    "md-fileserver": "^1.8.0",
+    "md5": "^2.3.0",
+    "node-html-parser": "^4.1.4",
+    "typescript": "^4.4.2"
+  }
+}
